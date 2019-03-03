@@ -1,0 +1,73 @@
+/*Estilo input uscar */
+.joj {
+    
+    color: #000; background-color: transparent;
+    border: 1px solid #0074a5;
+    border-top: 1px solid #004370;
+    border-left: 1px solid #004370;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.joj {
+    width: auto; /* ie */
+    overflow: visible; /* ie */
+    padding: 3px 8px 2px 6px; /* ie */
+}
+
+.joj[type] {
+    padding: 4px 8px 4px 6px; /* firefox */
+}
+
+.dytey,.btnsubm{
+    background-color: transparent;
+    border: none;
+}
+
+
+.bg-whiteO5{
+	background-color: rgba(255,255,255,0.7);
+}
+
+.video-image-mask
+{
+	width: 200px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.video-image-mask .video-image
+{
+	width: 105%;
+}
+
+
+.video-title
+{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+.video-title a
+{
+	color: #444;
+}
+
+
+
+body {
+
+  background-image: url("/img/e.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("/img/e.jpg");
+  }
+	}
